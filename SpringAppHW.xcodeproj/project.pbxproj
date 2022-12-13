@@ -14,6 +14,8 @@
 		FA5B67332948A74900F06155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5B67322948A74900F06155 /* Assets.xcassets */; };
 		FA5B67362948A74900F06155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5B67342948A74900F06155 /* LaunchScreen.storyboard */; };
 		FA5B673F2948A7B500F06155 /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = FA5B673E2948A7B500F06155 /* SpringAnimation */; };
+		FA5B67452948B46200F06155 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B67442948B46200F06155 /* Animation.swift */; };
+		FA5B67482948B49E00F06155 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B67472948B49E00F06155 /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		FA5B67322948A74900F06155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA5B67352948A74900F06155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA5B67372948A74900F06155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5B67442948B46200F06155 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		FA5B67472948B49E00F06155 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +62,65 @@
 		FA5B67282948A74900F06155 /* SpringAppHW */ = {
 			isa = PBXGroup;
 			children = (
-				FA5B67292948A74900F06155 /* AppDelegate.swift */,
-				FA5B672B2948A74900F06155 /* SceneDelegate.swift */,
-				FA5B672D2948A74900F06155 /* ViewController.swift */,
-				FA5B672F2948A74900F06155 /* Main.storyboard */,
-				FA5B67322948A74900F06155 /* Assets.xcassets */,
-				FA5B67342948A74900F06155 /* LaunchScreen.storyboard */,
+				FA5B67432948B36200F06155 /* Apps */,
+				FA5B67402948B33A00F06155 /* View Controllers */,
+				FA5B67412948B34D00F06155 /* Storyboards */,
+				FA5B67422948B35A00F06155 /* Resources */,
 				FA5B67372948A74900F06155 /* Info.plist */,
+				FA5B67492948B4A800F06155 /* Services */,
+				FA5B67462948B46900F06155 /* Models */,
 			);
 			path = SpringAppHW;
+			sourceTree = "<group>";
+		};
+		FA5B67402948B33A00F06155 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B672D2948A74900F06155 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FA5B67412948B34D00F06155 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B67342948A74900F06155 /* LaunchScreen.storyboard */,
+				FA5B672F2948A74900F06155 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FA5B67422948B35A00F06155 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B67322948A74900F06155 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA5B67432948B36200F06155 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B67292948A74900F06155 /* AppDelegate.swift */,
+				FA5B672B2948A74900F06155 /* SceneDelegate.swift */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		FA5B67462948B46900F06155 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B67442948B46200F06155 /* Animation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA5B67492948B4A800F06155 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B67472948B49E00F06155 /* DataStore.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +202,8 @@
 			files = (
 				FA5B672E2948A74900F06155 /* ViewController.swift in Sources */,
 				FA5B672A2948A74900F06155 /* AppDelegate.swift in Sources */,
+				FA5B67452948B46200F06155 /* Animation.swift in Sources */,
+				FA5B67482948B49E00F06155 /* DataStore.swift in Sources */,
 				FA5B672C2948A74900F06155 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
